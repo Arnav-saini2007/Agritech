@@ -1,19 +1,9 @@
-# Dependencies
+# Node
 node_modules/
 
-# Environment variables
+# Environment
 .env
-
-# Build outputs
-dist/
-build/
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
+.env.local
 
 # Python
 __pycache__/
@@ -21,11 +11,17 @@ __pycache__/
 venv/
 .venv/
 
-# ML Models
-*.gguf
-*.bin
+# Models
 *.pth
 *.pt
+*.bin
+*.gguf
+*.safetensors
 
-# Prisma
-prisma/dev.db
+# Build files
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
